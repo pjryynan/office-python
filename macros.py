@@ -16,7 +16,7 @@ def analyze_reel(*args):
 
     reel = sheet.getCellByPosition(0, 0).String
     if reel == "" or len(reel) < 3:
-        sheet.getCellByPosition(0, 0).String = "put number here"
+        sheet.getCellByPosition(0, 0).String = "Put number here"
         return
 
     # List windows of 3 reel symbols.
